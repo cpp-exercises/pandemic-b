@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source grade_utils
-TIMEOUT=20
+TIMEOUT=10
 run_in_folder_if_exists "$1"
 
 if [ -z "$DEBUG" ]; then
@@ -33,6 +33,7 @@ grade_command ./test3
 printf "### Score $i: $grade\n"
 total=$((total + grade))
 
+TIMEOUT=60
 let "i=i+1"
 printf "\n\n### Check $i: clang-tidy should run without warnings in user code\n"
 grade_command make -f Makefile tidy
