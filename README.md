@@ -106,8 +106,8 @@
 <div dir='ltr'>
 
 	make test && ./test
-   make tidy
-   make valgrind
+	make tidy
+	make valgrind
 
 </div>
 

@@ -1,3 +1,2 @@
-The object files (.o) will be generated here.
-Don't put any files here.
-
+תיקייה זו מיועדת לקבצי-מטרה (.o).
+הקבצים ייווצרו כאן באופן אוטומטי - אל תשימו כאן קבצים בעצמכם.
